@@ -3,7 +3,7 @@
 :test: none
 :mock: none
 :script: none
-:renderer: none
+:renderer: slim
 :stylesheet: none
 :namespace: StoryfulMessagesApp
 :migration_format: number

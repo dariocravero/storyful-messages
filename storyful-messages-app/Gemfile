@@ -1,7 +1,11 @@
 source 'https://rubygems.org'
 
+gem 'padrino-websockets', github: 'dariocravero/padrino-websockets', branch: 'noping'
+gem 'uv-rays'
+gem 'spider-gazelle'
 gem 'pry', group: :development
 gem 'storyful-messages-lib', path: '../storyful-messages-lib'
+gem 'slim'
 gem 'oj'
 gem 'rake'
 gem 'padrino', github: 'padrino/padrino-framework'

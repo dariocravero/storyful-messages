@@ -1,0 +1,8 @@
+{
+  "name": "storyful-messages-app",
+  "version": "0.0.1",
+  "dependencies": {
+    "normalize-css": "latest",
+    "angular": "latest"
+  }
+}

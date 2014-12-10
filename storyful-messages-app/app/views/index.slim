@@ -1,1 +1,16 @@
-h1 Hi
+space
+  h1
+    | {{ label }}
+  ul ng-repeat='message in messages'
+    li
+      div.message-what
+        | {{ message.what }}
+      div.message-from
+        | {{ message.from }}
+  div ng-if='messages.length === 0'
+    | No messages! Send one...
+
+  form.new-message ng-submit='sendMessage($event)'
+    input   name='what' ng-model='newMessage.what' placeholder='what'
+    input   name='from' ng-model='newMessage.from' placeholder='from'
+    button  type='submit' Send!

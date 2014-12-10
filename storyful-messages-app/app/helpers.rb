@@ -17,6 +17,7 @@ module StoryfulMessagesApp
 
       def message!(message, space)
         settings.spaces[spaces.index(space)] << message
+        message
       end
     end
 
