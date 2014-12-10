@@ -1,0 +1,10 @@
+require "bundler/gem_tasks"
+require 'cutest'
+require 'storyful/messages/space'
+require 'storyful/messages/message'
+
+task :test do
+  Cutest.run(Dir['test/*.rb'])
+end
+
+task :default => :test

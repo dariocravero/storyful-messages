@@ -1,0 +1,29 @@
+PATH
+  remote: .
+  specs:
+    storyful-messages-lib (0.0.1)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    clap (1.0.0)
+    coderay (1.1.0)
+    cutest (1.2.2)
+      clap
+    method_source (0.8.2)
+    pry (0.10.1)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
+    rake (10.4.2)
+    slop (3.6.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler (~> 1.7)
+  cutest
+  pry
+  rake (~> 10.0)
+  storyful-messages-lib!
