@@ -1,0 +1,8 @@
+source 'https://rubygems.org'
+
+gem 'pry', group: :development
+gem 'storyful-messages-lib', path: '../storyful-messages-lib'
+gem 'oj'
+gem 'rake'
+gem 'padrino', github: 'padrino/padrino-framework'
+gem 'rabl'

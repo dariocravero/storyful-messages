@@ -19,3 +19,12 @@ It exposes two primitives: `Message` and `Space`. A message could live in a spac
   space.count #=> 1
   space.first.from #=> 'dario'
 ```
+
+
+## storyful-messages-app
+
+```
+curl --data "label=this" http://127.0.0.1:3000/spaces
+curl --data 'from=dario&what=this' http://127.0.0.1:3000/spaces/this/messages
+curl http://127.0.0.1:3000/spaces/this/messages
+```
